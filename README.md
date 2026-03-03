@@ -1,2 +1,39 @@
-# Operational-Amplifier-Design
+# Multi-Stage CMOS Operational Amplifier Design
+**Comprehensive Design and LTspice Simulation of a High-Gain Op-Amp**
+
+## Overview
 This project involves the design, analysis, and simulation of a multi-stage CMOS Operational Amplifier. The design was optimized to meet specific engineering constraints, focusing on high open-loop gain, stability, and the ability to drive low-resistance loads.
+
+## Technical Specifications
+| Parameter | Target Requirement | Achieved Result |
+| :--- | :--- | :--- |
+| **Open-Loop Gain** | > 80 dB | **82.8 dB** |
+| **Gain-Bandwidth Product (GBW)** | 5 MHz | **4.74 MHz** |
+| **Phase Margin** | Stable | **-163.6° (at Unity Gain)** |
+| **Load Resistance** | 100 Ω | **100 Ω** |
+| **Supply Voltage** | ± 3.3 V | **± 3.3 V** |
+
+## System Architecture
+The amplifier is divided into four functional sub-circuits, ensuring a modular and robust design:
+
+1. **Bias Branch (Current Mirror):** A cascode current mirror configuration used to provide stable reference currents across all stages with high output impedance.
+2. **Differential Amplifier Stage:** The input stage featuring an active load and a cascode current source to maximize CMRR (Common-Mode Rejection Ratio) and provide the initial 40dB gain.
+3. **Gain Stage:** A Common-Source amplifier providing an additional 40dB gain. It includes a **25pF Miller Compensation Capacitor** to ensure frequency stability and prevent oscillations.
+4. **Output Buffer:** A current-sink biased stage designed for low output impedance, enabling the system to drive a 100Ω load without significant gain degradation.
+
+## Design Highlights & Challenges
+* **Stability Analysis:** Used Bode plots to verify the Phase Margin and Gain Margin, ensuring the amplifier remains stable under closed-loop conditions.
+* **Iterative Sizing:** Transistor W/L ratios were iteratively optimized to balance DC operating points with AC performance requirements.
+* **Load Matching:** The output stage was specifically tuned to handle high current demands for low-resistance loads.
+
+## Tools Used
+* **LTspice:** For DC, AC (Frequency Response), and Transient analysis.
+* **CMOS Technology:** Level 1 NMOS/PMOS models.
+
+## Project Structure
+* `/Simulations`: Contains `.asc` and `.asy` files for the complete circuit and individual blocks.
+* `/Images`: Includes Bode plots, circuit schematics, and transient response graphs.
+* `Final_Op_Amplifier_Report.pdf`: Full engineering report detailing the mathematical analysis.
+
+---
+**Course:** Analog Electronic Circuits | **Institution:** Ruppin Academic Center
