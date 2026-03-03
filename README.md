@@ -9,7 +9,7 @@ This project involves the design, analysis, and simulation of a multi-stage CMOS
 | :--- | :--- | :--- |
 | **Open-Loop Gain** | 80 dB | **82.8 dB** |
 | **Gain-Bandwidth Product (GBW)** | 5 MHz | **4.74 MHz** |
-| **Phase Margin** | Stable | **-163.6° (at Unity Gain)** |
+| **Operating Current** | 100$\muA$ | **100$\muA$** |
 | **Load Resistance** | 100 Ω | **100 Ω** |
 | **Supply Voltage** | ± 3.3 V | **± 3.3 V** |
 
