@@ -7,7 +7,7 @@ This project involves the design, analysis, and simulation of a multi-stage CMOS
 ## Technical Specifications
 | Parameter | Target Requirement | Achieved Result |
 | :--- | :--- | :--- |
-| **Open-Loop Gain** | > 80 dB | **82.8 dB** |
+| **Open-Loop Gain** | 80 dB | **82.8 dB** |
 | **Gain-Bandwidth Product (GBW)** | 5 MHz | **4.74 MHz** |
 | **Phase Margin** | Stable | **-163.6° (at Unity Gain)** |
 | **Load Resistance** | 100 Ω | **100 Ω** |
