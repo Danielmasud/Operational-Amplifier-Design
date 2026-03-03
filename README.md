@@ -2,14 +2,14 @@
 **Comprehensive Design and LTspice Simulation of a High-Gain Op-Amp**
 
 ## Overview
-This project involves the design, analysis, and simulation of a multi-stage CMOS Operational Amplifier. The design was optimized to meet specific engineering constraints, focusing on high open-loop gain, stability, and the ability to drive low-resistance loads.
+This project involves the design, analysis, and simulation of a multi-stage Operational Amplifier. The design was optimized to meet specific engineering constraints, focusing on high open-loop gain, stability, and the ability to drive low-resistance loads.
 
 ## Technical Specifications
 | Parameter | Target Requirement | Achieved Result |
 | :--- | :--- | :--- |
 | **Open-Loop Gain** | 80 dB | **82.8 dB** |
 | **Gain-Bandwidth Product (GBW)** | 5 MHz | **4.74 MHz** |
-| **Operating Current** | 100$\muA$ | **100$\muA$** |
+| **Operating Current ($I_{DS}$)** | $100\text{ }\mu\text{A}$ | **$100\text{ }\mu\text{A}$** |
 | **Load Resistance** | 100 Ω | **100 Ω** |
 | **Supply Voltage** | ± 3.3 V | **± 3.3 V** |
 
@@ -21,13 +21,6 @@ The amplifier is divided into four functional sub-circuits, ensuring a modular a
 3. **Gain Stage:** A Common-Source amplifier providing an additional 40dB gain. It includes a **25pF Miller Compensation Capacitor** to ensure frequency stability and prevent oscillations.
 4. **Output Buffer:** A current-sink biased stage designed for low output impedance, enabling the system to drive a 100Ω load without significant gain degradation.
 
-## Design Highlights & Challenges
-* **Stability Analysis:** Used Bode plots to verify the Phase Margin and Gain Margin, ensuring the amplifier remains stable under closed-loop conditions.
-* **Iterative Sizing:** Transistor W/L ratios were iteratively optimized to balance DC operating points with AC performance requirements.
-* **Load Matching:** The output stage was specifically tuned to handle high current demands for low-resistance loads.
-
-## Tools Used
-* **LTspice:** For DC, AC (Frequency Response), and Transient analysis.
 
 ## Visual Documentation Guide
 
@@ -47,5 +40,7 @@ The amplifier is divided into four functional sub-circuits, ensuring a modular a
 
 <img width="980" height="530" alt="Screenshot 2026-03-03 at 14 32 45" src="https://github.com/user-attachments/assets/f455e5f1-5aa0-4cfa-a4c4-e61c6db10181" />
 
+## Tools Used
+* **LTspice:** For DC, AC (Frequency Response), and Transient analysis.
 ---
 **Course:** Analog Electronic Circuits | **Institution:** Ruppin Academic Center
