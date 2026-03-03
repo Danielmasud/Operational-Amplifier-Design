@@ -8,7 +8,7 @@ This project involves the design, analysis, and simulation of a multi-stage Oper
 | :--- | :--- | :--- |
 | **Open-Loop Gain** | 80 dB | **82.8 dB** |
 | **Gain-Bandwidth Product (GBW)** | 5 MHz | **4.74 MHz** |
-| **Operating Current ($I_{DS}$)** | $100\text{ }\mu\text{A}$ | [cite_start]**$\mathbf{100\text{ }\mu A}$** [cite: 74, 167] |
+| **Operating Current ($I_{DS}$)** | $100\text{ }\mu\text{A}$ | **$\mathbf{100\text{ }\mu A}$** |
 | **Load Resistance** | 100 Ω | **100 Ω** |
 | **Supply Voltage** | ± 3.3 V | **± 3.3 V** |
 
