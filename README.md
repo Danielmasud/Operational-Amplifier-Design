@@ -1,4 +1,4 @@
-# Multi-Stage CMOS Operational Amplifier Design
+# Multi-Stage Operational Amplifier Design
 **Comprehensive Design and LTspice Simulation of a High-Gain Op-Amp**
 
 ## Overview
@@ -28,12 +28,24 @@ The amplifier is divided into four functional sub-circuits, ensuring a modular a
 
 ## Tools Used
 * **LTspice:** For DC, AC (Frequency Response), and Transient analysis.
-* **CMOS Technology:** Level 1 NMOS/PMOS models.
 
-## Project Structure
-* `/Simulations`: Contains `.asc` and `.asy` files for the complete circuit and individual blocks.
-* `/Images`: Includes Bode plots, circuit schematics, and transient response graphs.
-* `Final_Op_Amplifier_Report.pdf`: Full engineering report detailing the mathematical analysis.
+## Visual Documentation Guide
+
+**System Block Diagram:**
+
+<img width="675" height="317" alt="Screenshot 2026-03-03 at 14 32 05" src="https://github.com/user-attachments/assets/bdaf09d2-6220-4c86-a504-c4d3de1e6713" />
+
+**Full Circuit Schematic:**
+
+<img width="835" height="394" alt="Screenshot 2026-03-03 at 14 32 14" src="https://github.com/user-attachments/assets/8e5e5319-fa75-452b-ab00-e4c7e7585cf5" />
+
+**Frequency Response (Bode Plot):**
+
+<img width="986" height="533" alt="Screenshot 2026-03-03 at 14 32 25" src="https://github.com/user-attachments/assets/1f4e0c8d-39d6-4900-8ca4-419299504149" />
+
+**Transient Response (Amplified Signal):**
+
+<img width="980" height="530" alt="Screenshot 2026-03-03 at 14 32 45" src="https://github.com/user-attachments/assets/f455e5f1-5aa0-4cfa-a4c4-e61c6db10181" />
 
 ---
 **Course:** Analog Electronic Circuits | **Institution:** Ruppin Academic Center
