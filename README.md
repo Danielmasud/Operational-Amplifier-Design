@@ -1,5 +1,4 @@
 # Multi-Stage Operational Amplifier Design
-**Comprehensive Design and LTspice Simulation of a High-Gain Op-Amp**
 
 ## Overview
 This project involves the design, analysis, and simulation of a multi-stage Operational Amplifier. The design was optimized to meet specific engineering constraints, focusing on high open-loop gain, stability, and the ability to drive low-resistance loads.
